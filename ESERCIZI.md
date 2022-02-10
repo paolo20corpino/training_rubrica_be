@@ -37,8 +37,8 @@
 
 # 8.	Implementare un metodo saveNumTelefonoPersona che dati in input una lista di numeri di telefono e l’id della Persona salvi a DB dell’associazione dei numeri di telefono della persona data.
 
-# 9.	Implementare un metodo modificaPersona (che utilizza l’annotation @PutMapping) che date in input tutte le informazioni relative alla persona ne effettui il salvataggio a db.
-
+# 9.	Implementare un metodo modificaPersona che date in input tutte le informazioni relative alla persona ne effettui il salvataggio a db.
+  - Utilizzare l'annotation **@PutMapping**
   - **IMPORTANTE:** l’oggetto in input prevede tutte le informazioni associabili alla persona, ma saranno popolate solo le informazioni che sono state
   modificate, le altre saranno null; I campi non modificati devono restare inalterati.
 
@@ -48,6 +48,7 @@
 - Se il numero che si sta inserendo è già presente a DB salvarlo con l’id associato, se il numero di telefono cancellato è associato a più utenti rimuoverlo dall’associativa ma non rimuoverlo dalla tabella telefono.
 
 # 11.	Implementare un metodo deleteNumTelefono che dato un numero di telefono in input lo rimuova dal DB.
+  - Utilizzare l'annotation **@DeleteMapping**
 
 # 12.	Implementare un metodo deletePersona che dato in input l’id della persona ne effettui la cancellazione a DB compresi i suoi numeri di telefono, se non condivisi con altre persone.
 
