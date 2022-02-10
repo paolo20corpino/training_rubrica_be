@@ -50,4 +50,6 @@
 
 # 12.	Implementare un metodo deletePersona che dato in input l’id della persona ne effettui la cancellazione a DB compresi i suoi numeri di telefono, se non condivisi con altre persone.
 
-# 13.	Implementare un metodo modificaNumTelefonoPersona2 dati in input l’id della persona e una lista di numeri di telefono modifica dei numeri di telefono di un utente. Se l’utente condivide dei numeri di telefono con altri utenti tali numeri non possono essere modificati. Modificare solo quelli associati all'utente e restituire una lista di messaggi per ogni numero non modificabile indicando il numero e a quali altri utenti è associato. In caso sia possibile modificare tutti i numeri restituire un messaggio di avvenuta modifica.
+# 13.	Implementare un metodo modificaNumTelefonoPersona2 dati in input l’id della persona e una lista di numeri di telefono modifica dei numeri di telefono di un utente. 
+- Se l’utente condivide dei numeri di telefono con altri utenti tali numeri non possono essere modificati.
+- Modificare solo quelli associati all'utente e restituire una lista di messaggi per ogni numero non modificabile indicando il numero e a quali altri utenti è associato. In caso sia possibile modificare tutti i numeri restituire un messaggio di avvenuta modifica.
