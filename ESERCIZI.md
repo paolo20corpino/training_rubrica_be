@@ -44,12 +44,13 @@
 
   **9.1  Inserire la validazione dell’oggetto in input per i campi valorizzati. Sfruttare classe CheckErrors per effettuare i controlli.**
 
-# 10.	Implementare un metodo modificaNumTelefonoPersona che dati in input l’id della persona e una lista di numeri di telefono elimini i numeri non più presenti in lista, aggiorni i numeri modificati e salvi i nuovi numeri aggiungi (se il numero che si sta inserendo è già presente a DB salvarlo con l’id associato, se il numero di telefono cancellato è associato a più utenti rimuoverlo dall’associativa ma non rimuoverlo dalla tabella telefono).
+# 10.	Implementare un metodo modificaNumTelefonoPersona che dati in input l’id della persona e una lista di numeri di telefono elimini i numeri non più presenti in lista, aggiorni i numeri modificati e salvi i nuovi numeri aggiungi 
+- Se il numero che si sta inserendo è già presente a DB salvarlo con l’id associato, se il numero di telefono cancellato è associato a più utenti rimuoverlo dall’associativa ma non rimuoverlo dalla tabella telefono.
 
 # 11.	Implementare un metodo deleteNumTelefono che dato un numero di telefono in input lo rimuova dal DB.
 
 # 12.	Implementare un metodo deletePersona che dato in input l’id della persona ne effettui la cancellazione a DB compresi i suoi numeri di telefono, se non condivisi con altre persone.
 
-# 13.	Implementare un metodo modificaNumTelefonoPersona2 dati in input l’id della persona e una lista di numeri di telefono modifica dei numeri di telefono di un utente. 
+# 13.	Implementare un metodo modificaNumTelefonoPersonaMessaggi dati in input l’id della persona e una lista di numeri di telefono modifica dei numeri di telefono di un utente. 
 - Se l’utente condivide dei numeri di telefono con altri utenti tali numeri non possono essere modificati.
 - Modificare solo quelli associati all'utente e restituire una lista di messaggi per ogni numero non modificabile indicando il numero e a quali altri utenti è associato. In caso sia possibile modificare tutti i numeri restituire un messaggio di avvenuta modifica.
